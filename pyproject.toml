@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cloud-file-manager"
+version = "0.0.1"
+description = "This is a file manager service that will able people to have a file manager linked with their cloud account like, aws, azure, gcp."
+authors = ["Denis Lopes"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cloud_file_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
